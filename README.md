@@ -1,1 +1,1 @@
-# Python-Zoom-Class
+# pythonzoomclass
