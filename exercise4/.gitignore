@@ -1,0 +1,11 @@
+# ignore exe extension files
+*.exe
+
+# ignore o extension files
+*.o
+
+# ignore jar extension files
+*.jar
+
+# ignore directory named libraries
+libraries/
