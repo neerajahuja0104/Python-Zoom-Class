@@ -1,0 +1,139 @@
+BASIC LEVEL
+
+1.ifconfig
+
+2.mv command supports moving single files, multiple files and directories. It can prompt before overwriting and has an option to only move files that are new than the destination.
+
+3.touch command
+
+4.ls command
+
+5.ls -l command
+
+6.clear command
+
+7.
+
+8.cd.. command
+
+9.echo command in linux is used to display line of text/string that are passed as an argument.
+
+10.more command
+
+11.ps command
+
+12.top command
+
+13.chmod command
+
+14.pwd command
+
+15.rm -rf directory_name
+
+16.su user_name
+
+17.sudo command
+
+18.file command
+
+
+INTERMEDIATE LEVEL
+
+1.Three modes - command, insert and escape/last line
+
+2.mkdir {dirname_1,dirname_2,dirname_3}
+
+3.Last In Last Out - an approach according to which last entered entity is the last one to leave as in a queue.
+
+4.cd~ : changes directory to home directory; cd/ : changes directory to root directory; cd- : changes to previous directory
+
+5.grep - allows you to find a string in a file or stream. It can be used with a regular expression to be more flexible at finding strings.
+
+6.No, it will give an error.
+
+7./usr/local may be used for programs and data that are shareable amongst a group of hosts, but not found in /usr. It contains - bin, etc, games, include, lib, man, sbin, share and src.
+
+8.whoami command
+
+9.sudo passwd user_name
+
+10.diff command
+
+11.Using readlink command with options like -f, -m or -e as needed
+
+12.w command
+
+13.sudo pkill bg_process_name
+
+14.ls -d alphabet*/string*
+
+15.mv *.extension dir_name
+
+16.free command
+
+17.ls -lr command
+
+18.who command, last command or uptime command
+
+19.chown new_user file/dir_name
+
+
+ADVANCED LEVEL
+
+1.mount command
+
+2.df -k/-m/-h for kilobytes/megabytes/gigabytes
+
+3.Swap space in Linux is used when the amount of physical memory (RAM) is full. If the system needs more memory resources and the RAM is full, inactive pages in memory are moved to the swap space. While swap space can help machines with a small amount of RAM, it should not be considered a replacement for more RAM. Swap space is located on hard drives, which have a slower access time than physical memory.
+Recommended Swap Space based on RAM amount:
+2GB for <=4GB
+4GB for 4-16GB
+8GB for 16-64GB
+16GB for 64-256GB
+32GB for 256-512GB RAM.
+
+4.Task can be scheduled using crontab command with syntax: A B C D E USERNAME /path/to/command/ arg1 arg2	OR	A B C D E USERNAME /root/backup.sh - where
+A is Minutes (0-59)
+B is Hours (0-23)
+C is Days (0-30)
+D is Months (0-11)
+E is Days of Week (0-6)
+USERNAME replace this with your username
+/path/to/command is the name of script or command to schedule
+Operator symbols:	* for all possible values for a field; , for a list of values; - for a range of values; / for a step value
+
+5.No O/P as -v prints all lines that do not match the pattern here 'hello'
+hello as -i ignores case for matching
+hello as there is only hello in file else it would have printed two lines above the line containing hello, too
+hello as there is only hello in file else it would have printed four lines above and below the line containing hello, too
+hello as there is only hello in file else it would have printed three lines below the line containing hello, too
+gives a fully formated list of active processes related to more
+It will split the lines with space as delimiter by default and provide the words from second to fifth ($2,$5) in the each record as O/P
+
+6.The export command is one of the bash shell BUILTINS commands, which means it is part of your shell. The export command is fairly simple to use as it has straightforward syntax with only three available command options. In general, the export command marks an environment variable to be exported with any newly forked child processes and thus it allows a child process to inherit all marked variables. Example -
+$ a=linuxcareer.com
+$ echo $a
+linuxcareer.com
+$ bash
+$ echo $a
+
+$
+The above code is an O/P
+
+7.
+
+8.
+
+9.
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+
+15.
