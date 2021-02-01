@@ -1,0 +1,49 @@
+Before git reset --soft
+
+git log
+commit f6d2c060ce7e95abb5d891e208b39e8172bac2d5 (HEAD -> master)
+Author: neerajahuja0104 <neeraj.ahuja0104@gmail.com>
+Date:   Sun Jan 31 22:49:55 2021 -0700
+
+    Committed last
+
+commit 4bbd6c76561df8c6e13fc282b6bbb4d268b16267
+Author: neerajahuja0104 <neeraj.ahuja0104@gmail.com>
+Date:   Sun Jan 31 22:46:21 2021 -0700
+
+    Committed Thrice
+
+commit 2987f0f64b02237d245d684bab23bed5c755c014 (origin/master)
+Author: neerajahuja0104 <neeraj.ahuja0104@gmail.com>
+Date:   Sun Jan 31 22:36:52 2021 -0700
+
+    Committed Twice
+
+commit f8c2669cb63b15a69a2fd58ea7f0d2d394c6b235
+Author: neerajahuja0104 <neeraj.ahuja0104@gmail.com>
+Date:   Sun Jan 31 22:33:38 2021 -0700
+
+    Committed Once
+
+git reset --soft 2987f0f6
+
+git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   exercise6.html
+
+After git reset --soft
+
+git log
+commit 2987f0f64b02237d245d684bab23bed5c755c014 (HEAD -> master, origin/master)
+Author: neerajahuja0104 <neeraj.ahuja0104@gmail.com>
+Date:   Sun Jan 31 22:36:52 2021 -0700
+
+    Committed Twice
+
+commit f8c2669cb63b15a69a2fd58ea7f0d2d394c6b235
+Author: neerajahuja0104 <neeraj.ahuja0104@gmail.com>
+Date:   Sun Jan 31 22:33:38 2021 -0700
+
+    Committed Once
