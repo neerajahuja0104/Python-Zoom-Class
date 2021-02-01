@@ -1,0 +1,46 @@
+Before git reset --hard
+
+git log
+commit 4c711de52493fb933402307f214c88315dd6b0dc (HEAD -> master)
+Author: neerajahuja0104 <neeraj.ahuja0104@gmail.com>
+Date:   Sun Jan 31 23:11:33 2021 -0700
+
+    Commit number 3
+
+commit 527c3b529437a07a5b21af465fdb47c475489763
+Author: neerajahuja0104 <neeraj.ahuja0104@gmail.com>
+Date:   Sun Jan 31 23:10:56 2021 -0700
+
+    Commit number 2
+
+commit 22cf822ba5990fb43ba93fd338675807bfa55086
+Author: neerajahuja0104 <neeraj.ahuja0104@gmail.com>
+Date:   Sun Jan 31 23:09:26 2021 -0700
+
+    Commit number 1
+
+After git reset --hard
+
+ git reset --hard 527c3b5
+HEAD is now at 527c3b5 Commit number 2
+
+git log
+commit 527c3b529437a07a5b21af465fdb47c475489763 (HEAD -> master)
+Author: neerajahuja0104 <neeraj.ahuja0104@gmail.com>
+Date:   Sun Jan 31 23:10:56 2021 -0700
+
+    Commit number 2
+
+commit 22cf822ba5990fb43ba93fd338675807bfa55086
+Author: neerajahuja0104 <neeraj.ahuja0104@gmail.com>
+Date:   Sun Jan 31 23:09:26 2021 -0700
+
+    Commit number 1
+
+git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index_ex2.html
+
+nothing added to commit but untracked files present (use "git add" to track)
